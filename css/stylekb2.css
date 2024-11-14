@@ -75,10 +75,6 @@ footer {
     color: rgb(255, 0, 111);
 }
 
-
-
-
-
 .gallery {
     display: flex;
     justify-content: space-around;
@@ -92,19 +88,28 @@ footer {
 
 .image1:hover {
     transform: scale(1.5);
-    transition: transform .2s; /*Trouvé sur Modzilla, permet de changer la durée de la transformation*/
+    transition: transform .2s;
+    /*Trouvé sur Modzilla, permet de changer la durée de la transformation*/
 }
 
-.image2{
+.image2 {
     opacity: 0.5;
 }
-.image2:hover{
+
+.image2:hover {
     opacity: 1;
-    transition: transform .2s; /*Trouvé sur Modzilla, permet de changer la durée de la transformation*/
+    transition: transform .2s;
+    /*Trouvé sur Modzilla, permet de changer la durée de la transformation*/
 }
-.image3{
-    border-radius:15px;
+
+.image3 {
+    border-radius: 15px;
     border-style: dotted dashed solid double;
     border-color: yellow;
     border-width: 5px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    /* Ajoute un espace entre chaque élément */
 }
